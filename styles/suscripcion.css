@@ -1,0 +1,63 @@
+/* Estilos específicos para suscripcion.html */
+
+.contenedor-suscripcion {
+  max-width: 600px;
+  margin: 3rem auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contenedor-suscripcion h1 {
+  color: #c8102e;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.contenedor-suscripcion p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.formulario-suscripcion {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.formulario-suscripcion label {
+  text-align: left;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
+.formulario-suscripcion input {
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+}
+
+.formulario-suscripcion input:focus {
+  border-color: #c8102e;
+  outline: none;
+}
+
+.formulario-suscripcion .btn-secundario {
+  background-color: #c8102e;
+  color: white;
+  border: none;
+  padding: 0.8rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.formulario-suscripcion .btn-secundario:hover {
+  background-color: #a50d24;
+}

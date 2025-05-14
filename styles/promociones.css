@@ -1,0 +1,22 @@
+/* Estilos específicos para promociones.html */
+
+.contenedor-promociones {
+  padding: 2rem;
+  background-color: #fff;
+  text-align: center;
+}
+
+.contenedor-promociones h1 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: #c8102e;
+}
+
+/* Grid responsivo */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}

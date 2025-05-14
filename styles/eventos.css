@@ -1,0 +1,68 @@
+/* Estilos específicos para eventos.html */
+
+.contenedor-eventos {
+  padding: 2rem;
+  background-color: #fff;
+  text-align: center;
+}
+
+.contenedor-eventos h1 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: #c8102e;
+}
+
+.eventos-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.evento {
+  display: flex;
+  flex-direction: column;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: left;
+}
+
+.evento img {
+  width: 100%;
+  height: auto;
+}
+
+.evento-info {
+  padding: 1rem;
+}
+
+.evento-info h2 {
+  color: #c8102e;
+  font-size: 1.5rem;
+}
+
+.evento-info p {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color: #333;
+}
+
+/* Responsive */
+@media (min-width: 768px) {
+  .evento {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .evento img {
+    width: 40%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .evento-info {
+    width: 60%;
+  }
+}
