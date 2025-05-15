@@ -1,0 +1,74 @@
+/* Estilos específicos para descripcion.html */
+
+.producto {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: auto;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+
+.imagen-producto img {
+  border-radius: 10px;
+  object-fit: cover;
+  transition: transform 0.3s linear 0s;
+}
+.imagen-producto img:hover {
+  transform: translateY(-10px);
+  cursor: pointer;
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.detalles-producto {
+  background-color: #f9f9f9;
+  padding: 6.5rem 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.detalles-producto h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #c8102e;
+}
+
+.descripcion {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  color: #555;
+}
+
+.especificaciones {
+  padding-left: 0;
+  margin-bottom: 1.5rem;
+}
+
+.especificaciones li {
+  margin-bottom: 0.5rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.precio {
+  font-size: 1.5rem;
+  color: #000;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+/* Responsive */
+@media (min-width: 768px) {
+  .producto {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .imagen-producto,
+  .detalles-producto {
+    flex: 1;
+  }
+}

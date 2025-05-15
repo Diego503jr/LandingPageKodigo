@@ -59,6 +59,21 @@ h3 {
   overflow: hidden;
 }
 
+.btn-promo {
+  animation: changeBG 5s ease-in-out 0s infinite alternate both;
+}
+
+@keyframes changeBG {
+  0% {
+    background-color: white;
+    color: #c8102e;
+  }
+  100% {
+    background-color: #c8102e;
+    color: white;
+  }
+}
+
 .promociones {
   padding: 2rem;
   background-color: #fff;
@@ -82,6 +97,7 @@ h3 {
 
 .card:hover {
   transform: translateY(-5px);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
 }
 
 .card img {
